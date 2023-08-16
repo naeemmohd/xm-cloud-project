@@ -1,0 +1,5 @@
+Init script - 
+.\init.ps1 -InitEnv -LicenseXmlPath "C:\License\license.xml" -AdminPassword "b"
+
+To fix dev cert issues locally -
+setx NODE_EXTRA_CA_CERTS C:\Users\mohd.naeem\AppData\Local\mkcert\rootCA.pem
